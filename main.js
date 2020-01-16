@@ -31,7 +31,7 @@ if(document.getElementById('min').innerHTML  < 9) {
 
 }
 function start (){
-    globaltim = setInterval(timerCounter,10);
+    globaltim = setInterval(timerCounter,1000);
     document.getElementById('btnstr').disabled = true;
     
 }
